@@ -1,0 +1,31 @@
+---
+title: Blog
+content_blocks:
+  page-heading:
+    title: Blog
+    description: Vonge blog features productivity, tips, inspiration and strategies for massive profits. Find out how to set up a successful blog or how to make yours even better!
+  posts-list:
+    show_posts: true
+  newsletter:
+    newsletter_title: Join my mailing list
+    newsletter_description: Get inspiration, updates and, cool stuff!
+    newsletter_identifier: >-
+      frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+    newsletter_button: Subscribe
+---
+
+<!-- page-heading -->
+{% include component-library/components/page-heading/page-heading.jekyll.html
+title=page.content_blocks.page-heading.title
+description=page.content_blocks.page-heading.description %}
+
+<!-- posts-list -->
+{% include component-library/components/posts-list/posts-list.jekyll.html
+show_posts=page.content_blocks.posts-list.show_posts %}
+
+<!-- newsletter -->
+{% include component-library/components/newsletter/newsletter.jekyll.html
+newsletter_title=page.content_blocks.newsletter.newsletter_title
+newsletter_identifier=page.content_blocks.newsletter.newsletter_identifier
+newsletter_button=page.content_blocks.newsletter.newsletter_button
+newsletter_description=page.content_blocks.newsletter.newsletter_description %}

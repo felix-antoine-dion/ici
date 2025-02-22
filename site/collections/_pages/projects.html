@@ -1,0 +1,31 @@
+---
+title: Projects
+content_blocks:
+  page-heading:
+    title: My works
+    description: I show only my best works built completely with passion, simplicity, and creativity!
+  projects-list:
+    show_projects: true
+  newsletter:
+    newsletter_title: Join my mailing list
+    newsletter_description: Get inspiration, updates and, cool stuff!
+    newsletter_identifier: >-
+      frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+    newsletter_button: Subscribe
+---
+
+<!-- page-heading -->
+{% include component-library/components/page-heading/page-heading.jekyll.html
+title=page.content_blocks.page-heading.title
+description=page.content_blocks.page-heading.description %}
+
+<!-- projects-list -->
+{% include component-library/components/projects-list/projects-list.jekyll.html
+show_projects=page.content_blocks.projects-list.show_projects %}
+
+<!-- newsletter -->
+{% include component-library/components/newsletter/newsletter.jekyll.html
+newsletter_title=page.content_blocks.newsletter.newsletter_title
+newsletter_identifier=page.content_blocks.newsletter.newsletter_identifier
+newsletter_button=page.content_blocks.newsletter.newsletter_button
+newsletter_description=page.content_blocks.newsletter.newsletter_description %}
