@@ -13,7 +13,7 @@ exclude:
   - node_modules
 
 sass:
-  sass_dir: _sass
+  sass_dir: site
   style: compressed
 #include:
 #  - _cloudcannon
