@@ -13,10 +13,8 @@ exclude:
   - node_modules
 
 sass:
-  sass_dir: site
+  sass_dir: .
   style: compressed
-#include:
-#  - _cloudcannon
 
 collections_dir: "collections"
 
@@ -45,10 +43,12 @@ defaults:
       permalink: /
   - scope:
       type: projects
+      path: _pages/projects.html
     values:
       layout: project
   - scope:
       type: posts
+      path: _pages/post.html
     values:
       layout: post
 
