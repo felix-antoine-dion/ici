@@ -2,8 +2,9 @@ title: ICI Service d'accompsagnement Jacynthe
 description: >
   Services d'accompagnement pour les personnes enceintes, etc.
 
-website: https://felix-antoine-dion.github.io
-basewebsite: /ici
+domain: felix-antoine-dion.github.io
+url: https://felix-antoine-dion.github.io
+baseurl: /ici
 
 plugins:
   - jekyll-sitemap
