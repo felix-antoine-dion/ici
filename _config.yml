@@ -12,7 +12,6 @@ exclude:
   - postcss.config.js
   - node_modules
 
-baseurl: /ici
 sass:
   sass_dir: .
   style: compressed
