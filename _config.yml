@@ -1,5 +1,8 @@
 title: ICI Service d'accompsagnement Jacynthe
-url: /doc
+description: >
+  Services d'accompagnement pour les personnes enceintes, etc.
+baseurl: "/ici" # the subpath of your site, e.g. /blog/
+url: https://felix-antoine-dion.github.io/
 
 plugins:
   - jekyll-sitemap
