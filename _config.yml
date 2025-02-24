@@ -4,7 +4,7 @@ description: >
 
 domain: felix-antoine-dion.github.io
 url: https://felix-antoine-dion.github.io
-baseurl: /ici/
+baseurl: /ici
 
 plugins:
   - jekyll-sitemap
