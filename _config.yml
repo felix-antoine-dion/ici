@@ -1,4 +1,5 @@
 title: ICI Service d'accompsagnement Jacynthe
+url: /doc
 
 plugins:
   - jekyll-sitemap
