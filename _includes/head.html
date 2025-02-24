@@ -18,6 +18,9 @@
     href="{{ page.url | replace:'index.html','' | absolute_url }}"
   />
 
+  <!-- Google robots crawl instructions -->
+  <meta name="robots" content="noindex" />
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{% if page.url == "/" %}{{
