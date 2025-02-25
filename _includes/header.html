@@ -8,7 +8,7 @@
             {%if site.data.navigation.logo_image %}
             <img
               class="logo__image"
-              src="{{ site.baseurl }}{{ site.data.navigation.logo_image }}"
+              src="{{ site.data.navigation.logo_image | relative_url }}"
               alt="{{ site.data.general_settings.title }}"
             />
             {% else %} {{ site.data.settings.title }} {% endif %}
