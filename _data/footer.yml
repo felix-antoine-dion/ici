@@ -2,14 +2,12 @@ footer_menu__settings:
   menu__items:
     - title: "Home"
       url: "/"
-    - title: "Projects"
-      url: "/projects/"
-    - title: "Elements"
-      url: "/elements/"
+    - title: "Services offerts"
+      url: "/services/"
     - title: "About"
       url: "/about/"
     - title: "Blog"
       url: "/blog/"
 
 copyright_text_html: >-
-  <p> 2025 &copy; <a href="/">Vonge</a>.</p>
+  <p> 2025 &copy; <a href="/">{{ site.title}}</a>.</p>
